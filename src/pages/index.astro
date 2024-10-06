@@ -3,16 +3,19 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+import CtaProjects from '../components/CtaProjects.astro';
+import CaseStudy from '../components/CaseStudy.astro';
+import Testimonials from '../components/Testimonials.astro';
+import Services from "../components/Services.astro";
+import HeaderCover from "../components/HeaderCover.astro";
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		
 	</head>
-
-	
 	
 	<body>
 		<!-- <Header /> -->
@@ -56,229 +59,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			</nav>
 		</header>
 
-
-
-
-
-		<section class="bg-white dark:bg-gray-900">
-			<div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-				<div class="mr-auto place-self-center lg:col-span-7">
-					<h1 data-aos="fade-up-sm" class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">InnovaSoluciones: Ingeniería Innovadora y Consultoría a tu Alcance</h1>
-					<p data-aos="fade-up-sm" data-aos-delay="200" class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Soluciones integrales en ingeniería y consultoría para empresas y particulares en toda España. Garantía de calidad y eficiencia en cada proyecto.</p>
-					<a data-aos-delay="300" data-aos="fade-up-sm" href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-						Solicita una consulta gratuita
-						<svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-					</a>
-					<a data-aos-delay="300" data-aos="fade-up-sm" href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 hover:txt-white-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-						Descubre nuestros servicios
-					</a> 
-				</div>
-				<div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-					<img src="/Glass.png" alt="mockup"> 
-
-					<!-- <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup"> -->
-				</div>                
-			</div>
-		</section>
-
-
-		<section data-aos="fade-up" id="Servicios" class="bg-gray-50 dark:bg-gray-800">
-			<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-				<div class="max-w-screen-md mb-8 lg:mb-16">
-					<h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Nuestros Servicios</h2>
-					<p class="text-gray-500 sm:text-xl dark:text-gray-400">Soluciones a Medida para Cada Necesidad Industrial
-					</p>
-				</div>
-				<div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-								
-
-					<!-- marcado ce  -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-2.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Marcado CE de Maquinaria y Productos</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Garantizamos que tu maquinaria y productos cumplan con las normativas europeas de seguridad mediante el Marcado CE. 
-								Asegura la calidad y legalidad de tus productos en el mercado.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Conoce más sobre Marcado CE
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>	
-					<!-- Ingeniería Industrial: Proyectos e Informes -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-4.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ingeniería Industrial: Proyectos e Informes</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Ofrecemos soluciones completas en ingeniería industrial. Desde proyectos detallados hasta informes técnicos y cálculos para cumplir con tus necesidades operativas.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Descubre nuestros Proyectos Industriales
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>	
-					<!-- Seguridad en Equipos y Maquinaria -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-3.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Seguridad en Equipos y Maquinaria</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Aseguramos que tu maquinaria cumpla con todas las normativas de seguridad, incluso para equipos antiguos sin Marcado CE. Protege a tu equipo y tus operaciones.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Mejora la Seguridad de tus Equipos
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>	
-					
-					<!-- Homologación de Vehículos y Proyectos de Reforma -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-2.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Homologación de Vehículos y Proyectos de Reforma</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Facilitamos la homologación y reforma de todo tipo de vehículos, garantizando que cumplan con las normativas técnicas vigentes. 
-								Desde vehículos industriales hasta modificaciones personales.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Solicita tu Homologación
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>
-					
-					<!-- Traducción Técnica de Documentación -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-5.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Traducción Técnica de Documentación</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Traducimos la documentación técnica necesaria para la comercialización y operación de productos dentro del Espacio Económico Europeo. 
-								Precisión y cumplimiento garantizado.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Solicita tu Traducción Técnica
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>
-
-					<!-- Grabado y Corte Láser de Placas Técnicas -->
-					<div data-aos="fade-up" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<a href="#">
-							<img class="rounded-t-lg" src="/blog-placeholder-2.jpg" alt="" />
-						</a>
-						<div class="p-5">
-							<a href="#">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Grabado y Corte Láser de Placas Técnicas</h5>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								Fabricamos placas identificativas y de características técnicas en distintos materiales como plástico, aluminio y acero inoxidable, adaptadas a tus especificaciones.
-							</p>
-							<a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-								Ver Opciones de Grabado
-								<svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-								</svg>
-							</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<section data-aos="fade-right-sm" data-aos-delay="200" class="bg-white dark:bg-gray-900">
-			<div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-				<figure class="max-w-screen-md mx-auto">
-					<svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
-					</svg> 
-					<blockquote>
-						<p class="text-2xl font-medium text-gray-900 dark:text-white">"InnovaSoluciones nos ayudó con la homologación de nuestra flota de vehículos industriales, haciéndolo todo mucho más fácil de lo que esperábamos. Su conocimiento técnico y rapidez fueron clave para cumplir con los plazos. Totalmente recomendados."</p>
-					</blockquote>
-					<figcaption class="flex items-center justify-center mt-6 space-x-3">
-						<img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
-						<div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-							<div class="pr-3 font-medium text-gray-900 dark:text-white">Luis García</div>
-							<div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400"> Director Técnico de Transporte Soler, S.A.</div>
-						</div>
-					</figcaption>
-				</figure>
-			</div>
-		</section>
-		
-		<section data-aos="fade-up" data-aos-delay="100" id="Proyectos" class="bg-white dark:bg-gray-900">
-			<div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-				<img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
-				<img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
-				<div class="mt-4 md:mt-0">
-					<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">¿Buscas Soluciones Técnicas Especializadas?</h2>
-					<p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Deja que nuestros expertos transformen tus necesidades en proyectos exitosos.
-					</p>
-					<a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-						¿Necesitas un proyecto a medida? Contáctanos y obtén una solución adaptada a tus necesidades.
-						<svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-					</a>					
-
-				</div>
-			</div>
-		</section>
-
-
-		<section data-aos="fade-up"  data-aos-delay="100" class="bg-white dark:bg-gray-900">
-			<div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-				<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-					<h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">Resultados que Hablan por Sí Solos</h2>
-					<p class="mb-4">Conoce cómo nuestras soluciones innovadoras han transformado proyectos industriales en éxitos comprobados.</p>
-					<p>Desde la adecuación de maquinaria hasta la homologación de vehículos, hemos ayudado a empresas a superar desafíos complejos y cumplir con los más altos estándares.
-					</p>
-					<button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-						<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-							¿Necesitas un proyecto a medida? Contáctanos						</span>
-						</button>
-				</div>
-				<div class="grid grid-cols-2 gap-4 mt-8">
-					<img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-					<img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-				</div>
-			</div>
-		</section>
+		<!-- header cover -->
+		<HeaderCover />
+		<!-- services -->
+		<Services />
+		<!-- tetsimonals -->
+		<Testimonials />
+		<!-- cta projects -->
+		<CtaProjects />
+		<!-- cases study -->
+		<CaseStudy />
 
 		<main>
 		</main>
