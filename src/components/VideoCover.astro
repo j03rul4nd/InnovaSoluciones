@@ -1,7 +1,7 @@
 <div id="videocomponenet">
     <div id="captionsectionvideo" class="relative  flex justify-center items-center overflow-hidden">
         <!-- Contenedor principal reducido -->
-        <div class="relative  w-xs max-w-sm h-auto rounded-lg overflow-hidden shadow-lg"> 
+        <div class="relative  video-card w-xs max-w-sm h-auto rounded-lg overflow-hidden shadow-lg"> 
           <!-- Video con ancho limitado -->
           <video autoplay muted loop class="w-full h-auto object-cover rounded-lg">
             <source src="/4941355-hd_1920_1080_25fps.mp4" type="video/mp4" />
@@ -26,21 +26,35 @@
         </div>
       </div>
 </div>
+
 <style>
     #captionsectionvideo{
         display: flex;
         position: absolute;
         z-index: 99;
-
     }
+    
     #videocomponenet{
         display: flex;
         z-index: 1;
         width: 100%;
         position: relative;
         height: 190px;
-        /* background: red; */
         align-items: center;
         justify-content: center;
+    }
+
+    /* Asegurar que la tarjeta esté centrada con margen en ambos lados */
+    .video-card {
+        margin: 0 auto; /* Esto centrará la tarjeta */
+        padding: 0 10px; /* Asegura un pequeño espacio en los lados */
+    }
+
+    /* Media query para pantallas pequeñas */
+    @media (max-width: 640px) {
+        .video-card {
+            max-width: 90%; /* Ancho máximo del 90% de la pantalla en dispositivos pequeños */
+            padding: 0 15px; /* Más espacio en los márgenes en pantallas pequeñas */
+        }
     }
 </style>
