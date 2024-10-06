@@ -45,9 +45,13 @@ const posts = (await getCollection('blog')).sort(
 			ul li:first-child .title {
 				font-size: 2.369rem;
 			}
+			/* Ajustamos el estilo para las imágenes de los demás posts */
 			ul li img {
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
+				width: 100%; /* Ancho al 100% */
+				height: 200px; /* Altura fija */
+				object-fit: cover; /* Recorta la imagen sin perder la proporción */
 			}
 			ul li a {
 				display: block;
@@ -82,19 +86,23 @@ const posts = (await getCollection('blog')).sort(
 				ul li:first-child .title {
 					font-size: 1.563em;
 				}
+				ul li img {
+					height: 150px; /* Altura ajustada para pantallas pequeñas */
+				}
 			}
 		</style>
+		
 	</head>
 	<body>
 		<Header />
 		<main>
 			<section>
-				<ul>
+				<ul> 
 					{
 						posts.map((post) => (
 							<li>
 								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
+									<img  width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
