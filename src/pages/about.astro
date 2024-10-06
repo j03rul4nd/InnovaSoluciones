@@ -3,60 +3,82 @@ import Layout from '../layouts/BlogPost.astro';
 ---
 
 <Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
+	title="Quiénes Somos"
+	description="**InnovaSoluciones** ofrece soluciones personalizadas en ingeniería y consultoría, garantizando calidad y cumplimiento normativo en cada proyecto."
+	pubDate={new Date('August 06 2024')}
 	heroImage="/blog-placeholder-about.jpg"
 >
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+<section class="container mx-auto py-8">
+	<!-- Sección de Presentación -->
+	<div class="mb-6">
+	  <p class="text-lg leading-relaxed text-gray-700">
+		<strong>InnovaSoluciones</strong> es una empresa de ingeniería y consultoría dedicada a ofrecer soluciones integrales y personalizadas para satisfacer las necesidades de nuestros clientes, ya sean empresas o particulares, en toda España. Con más de <span class="font-bold">3 años</span> de experiencia, nuestro equipo de expertos se especializa en brindar servicios de alta calidad, eficiencia y adaptabilidad, siempre bajo los más estrictos estándares de seguridad y normativas europeas.
+	  </p>
+	</div>
+  
+	<div class="mb-6">
+	  <p class="text-lg leading-relaxed text-gray-700">
+		Desde el Marcado CE de maquinaria y productos hasta la homologación de vehículos y la traducción técnica, en <strong>InnovaSoluciones</strong> nos comprometemos a transformar tus ideas y necesidades en soluciones efectivas y de éxito comprobado. Cada proyecto es una oportunidad para aplicar nuestro conocimiento técnico y nuestra pasión por la innovación, ofreciendo resultados que aseguran la satisfacción de nuestros clientes.
+	  </p>
+	</div>
+  
+	<!-- Sección de Visión -->
+	<div class="mb-8">
+	  <h2 class="text-2xl font-bold text-gray-900 mb-4">Nuestra Visión</h2>
+	  <p class="text-lg leading-relaxed text-gray-700">
+		Convertirnos en un referente en el sector de la ingeniería y consultoría en España, proporcionando servicios innovadores que permitan a nuestros clientes crecer y cumplir con las normativas vigentes de forma segura y eficiente.
+	  </p>
+	</div>
+  
+	<!-- Sección de Misión -->
+	<div class="mb-8">
+	  <h2 class="text-2xl font-bold text-gray-900 mb-4">Nuestra Misión</h2>
+	  <p class="text-lg leading-relaxed text-gray-700">
+		Ayudar a nuestros clientes a superar los desafíos técnicos y normativos a través de soluciones de ingeniería y consultoría personalizadas, innovadoras y eficientes. Nos esforzamos por ofrecer un servicio de calidad adaptado a las exigencias del mercado actual.
+	  </p>
+	</div>
+  
+	<!-- Sección de Valores -->
+	<div class="mb-8">
+	  <h3 class="text-xl font-bold text-gray-900 mb-4">Nuestros Valores</h3>
+	  <ul class="list-disc pl-6 space-y-2 text-lg text-gray-700">
+		<li><strong>Innovación:</strong> Buscamos constantemente nuevas formas de resolver problemas y mejorar nuestros procesos.</li>
+		<li><strong>Calidad:</strong> Garantizamos que cada proyecto cumpla con los más altos estándares de precisión y seguridad.</li>
+		<li><strong>Compromiso:</strong> Trabajamos codo a codo con nuestros clientes para entender sus necesidades y ofrecer soluciones a medida.</li>
+		<li><strong>Confianza:</strong> La transparencia y la ética son los pilares de nuestra relación con cada cliente.</li>
+		<li><strong>Eficiencia:</strong> Optimizamos nuestros procesos para entregar resultados de alto valor en el menor tiempo posible.</li>
+	  </ul>
+	</div>
+  
+	<!-- Sección de Equipo -->
+	<div class="mb-8">
+	  <h4 class="text-xl font-bold text-gray-900 mb-4">Nuestro Equipo</h4>
+	  <p class="text-lg leading-relaxed text-gray-700">
+		Contamos con un equipo multidisciplinario de ingenieros altamente cualificados y consultores especializados, lo que nos permite abordar una amplia gama de proyectos industriales, técnicos y normativos. Cada miembro de nuestro equipo está comprometido con brindar una experiencia profesional y cercana, enfocándose en la satisfacción del cliente en cada etapa del proyecto.
+	  </p>
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+	  <a href="/">
+		<button 		
+		type="button" 
+		class="inline-flex items-center justify-center  text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+			Solicita una consulta gratuita
+		   
+			<svg 
+			 class="w-5 h-5 ml-2 -mr-1 transform rotate-[300deg]" 
+			 fill="currentColor" 
+			 viewBox="0 0 20 20" 
+			 xmlns="http://www.w3.org/2000/svg">
+				<path 
+				 fill-rule="evenodd" 
+				 d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" 
+				 clip-rule="evenodd">
+				</path>
+			</svg>
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+		</button>
+	  </a>
 
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
-
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
+	</div>
+  </section>
+  
 </Layout>
