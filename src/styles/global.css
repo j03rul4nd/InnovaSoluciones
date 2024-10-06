@@ -80,7 +80,7 @@ b {
 a {
 	color: var(--accent);
 }
-a:hover {
+main a:hover {
 	color: var(--accent);
 }
 p {
