@@ -1,7 +1,7 @@
 ---
 title: 'Resultados que Hablan por Sí Solos'
 description: 'Casos de Éxito en Proyectos Industriales'
-pubDate: 'Sep 06 2024'
+pubDate: 'Sep 02 2024'
 heroImage: '/meetone.jpg'
 ---
 

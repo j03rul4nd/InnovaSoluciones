@@ -1,7 +1,7 @@
 ---
 title: 'Traducción Técnica de Documentación'
 description: 'Precisión y Cumplimiento Garantizados'
-pubDate: 'Sep 06 2024'
+pubDate: 'Sep 04 2024'
 heroImage: '/pexels-yankrukov-7693693.jpg'
 ---
 

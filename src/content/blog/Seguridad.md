@@ -1,7 +1,7 @@
 ---
 title: 'Seguridad en Equipos y Maquinaria'
 description: ' Protección y Cumplimiento para tus Operaciones'
-pubDate: 'Sep 06 2024'
+pubDate: 'Sep 09 2024'
 heroImage: '/pexels-thisisengineering-3862132.jpg'
 ---
 ## Protección y Cumplimiento para tus Operaciones
