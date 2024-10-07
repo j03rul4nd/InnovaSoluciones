@@ -101,7 +101,7 @@ const posts = (await getCollection('blog')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/blog/${post.slug}/`}>
+								<a href={`/blog/${post.slug}/`} data-aos-delay="200" data-aos="fade-up">
 									<img  width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
@@ -117,3 +117,13 @@ const posts = (await getCollection('blog')).sort(
 		<Footer />
 	</body>
 </html>
+<script src="/aos.js" defer></script>
+
+<script defer>
+	document.addEventListener("DOMContentLoaded", function () {
+	  AOS.init({
+		duration: 1000,
+		easing: 'ease-in-out-sine'
+	  });
+	});
+</script>
