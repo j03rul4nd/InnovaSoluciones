@@ -1,8 +1,8 @@
 ---
 title: 'Soluciones Técnicas Especializadas'
 description: 'Transformamos tus Ideas en Proyectos Exitosos'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-joaojesusdesign-19316522.jpg'
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 title: 'Grabado y Corte Láser de Placas Técnicas'
 description: 'Precisión y Durabilidad en Cada Detalle'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-daniel-smyth-83914874-10406128.jpg'
 ---
 
 ##  Precisión y Durabilidad en Cada Detalle

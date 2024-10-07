@@ -1,8 +1,8 @@
 ---
 title: 'Ingeniería Industrial'
 description: 'Proyectos e Informes Avanzados para la Industria 4.0'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-michael-pointner-134459625-15893881.jpg'
 ---
 
 ## Proyectos e Informes Avanzados para la Industria 4.0

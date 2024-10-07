@@ -2,7 +2,7 @@
 title: 'Resultados que Hablan por Sí Solos'
 description: 'Casos de Éxito en Proyectos Industriales'
 pubDate: 'Sep 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+heroImage: '/meetone.jpg'
 ---
 
 ## Casos de Éxito en Proyectos Industriales

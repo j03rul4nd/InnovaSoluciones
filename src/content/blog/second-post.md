@@ -1,7 +1,7 @@
 ---
 title: 'Second post'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 15 2022'
+pubDate: 'Sep 15 2024'
 heroImage: '/pexels-this-is-engineering-630576639-19816447.jpg'
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 'Marcado CE de Maquinaria y Productos'
 description: 'Garantiza la Seguridad y Legalidad de tus Equipos'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-cottonbro-5532835.jpg'
 ---
 
 ## Garantiza la Seguridad y Legalidad de tus Equipos

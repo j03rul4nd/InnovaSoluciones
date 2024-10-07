@@ -1,8 +1,8 @@
 ---
 title: 'Consultoría a tu Alcance'
 description: 'Ingeniería Innovadora y Consultoría a tu Alcance'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 01 2024'
+heroImage: '/pexels-thisisengineering-3913021.jpg'
 ---
 
 ## Ingeniería Innovadora y Consultoría a tu Alcance

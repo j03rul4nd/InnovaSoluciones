@@ -1,8 +1,8 @@
 ---
 title: 'Homologación de Vehículos y Proyectos de Reforma'
 description: 'Cumple con las Normativas de Forma Eficiente'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-this-is-engineering-630576639-19816447.jpg'
 ---
 
 ## Cumple con las Normativas de Forma Eficiente

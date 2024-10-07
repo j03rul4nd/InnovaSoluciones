@@ -1,8 +1,8 @@
 ---
 title: 'Descubre Nuestros Servicios'
 description: 'Innovación y Excelencia para tu Negocio'
-pubDate: 'Jul 06 2024'
-heroImage: '/pexels-pixabay-50691.jpg'
+pubDate: 'Sep 06 2024'
+heroImage: '/pexels-egorkomarov-27141316.jpg'
 ---
 
 ## Innovación y Excelencia para tu Negocio
